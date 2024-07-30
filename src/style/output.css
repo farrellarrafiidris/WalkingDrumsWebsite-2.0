@@ -446,6 +446,10 @@ video {
   display: none;
 }
 
+button {
+  cursor: none;
+}
+
 body::-webkit-scrollbar {
   display: none;
 }
@@ -950,6 +954,11 @@ body::-webkit-scrollbar {
 .text-gray-900 {
   --tw-text-opacity: 1;
   color: rgb(17 24 39 / var(--tw-text-opacity));
+}
+
+.text-orange-500 {
+  --tw-text-opacity: 1;
+  color: rgb(249 115 22 / var(--tw-text-opacity));
 }
 
 .text-primary {
