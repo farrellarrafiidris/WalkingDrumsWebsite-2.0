@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+
+    body::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+@layer components {
+
+    .navbar-list {
+        @apply  block py-2 px-3 rounded text-primary border-gray-700 hover:text-white hover:scale-110 duration-800;
+    }
+}
+
+@layer utilities {
+    
+    .hover-box {
+        width: 300px;
+        padding: 20px;
+        background-color: #3a3a3a;
+        border: 2px solid #555;
+        border-radius: 10px;
+        color: #fff;
+        position: relative;
+        cursor: pointer;
+        text-align: left;
+        transition: background-color 0.3s ease;
+      }
+      
+      .hover-box:hover {
+        background-color: #ff5722;
+      }
+      
+      .title {
+        font-size: 18px;
+        font-weight: bold;
+        color: #ff5722;
+        display: block;
+        margin-bottom: 10px;
+      }
+      
+      .description {
+        font-size: 14px;
+        color: #ccc;
+      }
+      
+      .click-me {
+        display: none;
+        font-size: 18px;
+        font-weight: bold;
+        color: white;
+      }
+      
+      .hover-box:hover .title,
+      .hover-box:hover .description {
+        display: none;
+      }
+      
+      .hover-box:hover .click-me {
+        display: block;
+      }
+}
