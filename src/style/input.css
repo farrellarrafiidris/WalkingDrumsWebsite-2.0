@@ -79,7 +79,7 @@
       }
 
       .background-sec-h {
-        @apply bg-gradient-to-l from-zinc-800 to-neutral-900 hover:from-neutral-900 hover:to-zinc-800 hover:border-none hover:transition-all
+        @apply bg-gradient-to-l from-zinc-800 to-neutral-900 hover:from-neutral-900 hover:to-zinc-800 hover:transition-all
       }
 
       .gradient-text {
