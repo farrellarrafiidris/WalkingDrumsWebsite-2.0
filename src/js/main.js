@@ -6,4 +6,9 @@ document.addEventListener('DOMContentLoaded', function () {
         type: 1,
         color: 'rgb(236, 106, 52)'
     })
+    AOS.init();
+    AOS.init({
+        delay: 300,
+        duration: 1000,
+    })
   });

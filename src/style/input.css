@@ -74,5 +74,20 @@
         display: block;
       }
 
+      .link-hover {
+        @apply hover:border hover:border-primary rounded-lg mb-3 hover:bg-transparent hover:text-primary
+      }
 
+      .background-sec-h {
+        @apply bg-gradient-to-l from-zinc-800 to-neutral-900 hover:from-neutral-900 hover:to-zinc-800 hover:border-none hover:transition-all
+      }
+
+      .gradient-text {
+        @apply bg-clip-text text-transparent;
+        background-image: linear-gradient(to right, #f67e28, #e95c1f);
+      }
+
+      .img-client{
+        @apply w-[100px] h-[100px]
+      }
 }
