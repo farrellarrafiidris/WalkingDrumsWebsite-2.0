@@ -569,7 +569,7 @@ body::-webkit-scrollbar {
   padding-right: 0.75rem;
   --tw-text-opacity: 1;
   color: rgb(255 137 46 / var(--tw-text-opacity));
-  transition-duration: 1000ms;
+  transition-duration: 700ms;
 }
 
 .navbar-list:hover {
@@ -753,10 +753,6 @@ body::-webkit-scrollbar {
   white-space: nowrap;
 }
 
-.rounded {
-  border-radius: 0.25rem;
-}
-
 .rounded-full {
   border-radius: 9999px;
 }
@@ -767,6 +763,10 @@ body::-webkit-scrollbar {
 
 .border {
   border-width: 1px;
+}
+
+.border-2 {
+  border-width: 2px;
 }
 
 .border-y {
@@ -831,11 +831,6 @@ body::-webkit-scrollbar {
   padding-right: 0.25rem;
 }
 
-.px-3 {
-  padding-left: 0.75rem;
-  padding-right: 0.75rem;
-}
-
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -854,11 +849,6 @@ body::-webkit-scrollbar {
 .py-1\.5 {
   padding-top: 0.375rem;
   padding-bottom: 0.375rem;
-}
-
-.py-2 {
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
 }
 
 .py-3 {
@@ -976,6 +966,10 @@ body::-webkit-scrollbar {
   --tw-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
   --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+*{
+  cursor: none;
 }
 
 .hover\:bg-gray-100:hover {
@@ -1114,11 +1108,6 @@ body::-webkit-scrollbar {
     border-width: 0px;
   }
 
-  .md\:bg-white {
-    --tw-bg-opacity: 1;
-    background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-  }
-
   .md\:p-0 {
     padding: 0px;
   }
@@ -1131,10 +1120,6 @@ body::-webkit-scrollbar {
   .md\:text-5xl {
     font-size: 3rem;
     line-height: 1;
-  }
-
-  .md\:hover\:bg-transparent:hover {
-    background-color: transparent;
   }
 }
 
