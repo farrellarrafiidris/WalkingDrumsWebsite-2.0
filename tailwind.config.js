@@ -2,7 +2,8 @@
 module.exports = {
   content: [
     "index.html",
-    "./src/js/main.js"
+    "./page/menu/kategori.html",
+    "./src/js/main.js",
   ],
   theme: {
     extend: {

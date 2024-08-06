@@ -8,9 +8,15 @@
     cursor: none;
   }
 
-    body::-webkit-scrollbar {
-        display: none;
-    }
+  body::-webkit-scrollbar {
+    display: none;
+    background-color: #000;
+  }
+
+  html{
+    scroll-behavior: smooth;
+  }
+
 }
 
 @layer components {
@@ -90,4 +96,6 @@
       .img-client{
         @apply w-[100px] h-[100px]
       }
+
+
 }
