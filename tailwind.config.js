@@ -3,7 +3,7 @@ module.exports = {
   content: [
     "index.html",
     "./page/menu/kategori.html",
-    "./page/menu/kategori/food.html",
+    "./page/menu/kategori/*.html",
     "./src/js/main.js",
   ],
   theme: {
