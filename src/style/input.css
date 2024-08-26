@@ -4,6 +4,12 @@
 
 @layer base{
 
+  .jk {
+    @apply {
+      mx-auto
+    }
+  }
+
   button {
     cursor: none;
   }
