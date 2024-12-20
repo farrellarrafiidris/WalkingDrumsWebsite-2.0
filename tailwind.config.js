@@ -7,9 +7,17 @@ module.exports = {
     "./src/js/main.js",
   ],
   theme: {
+    screens: {
+      sm: '480px',
+      md: '768px',
+      lg: '976px',
+      xl: '1440px',
+    },
     extend: {
       colors: {
-        primary: "#ff892e"
+        primary: "#ff892e",
+        secondary: "#333333",
+        utility: "#BADA55",
       }
     },fontFamily: {
       'body': [

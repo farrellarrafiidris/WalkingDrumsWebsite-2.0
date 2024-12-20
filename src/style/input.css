@@ -4,10 +4,8 @@
 
 @layer base{
 
-  .jk {
-    @apply {
-      mx-auto
-    }
+  jk {
+  @apply mx-auto;
   }
 
   button {
@@ -103,5 +101,20 @@
         @apply w-[100px] h-[100px]
       }
 
+      /* Hilangkan scrollbar untuk tampilan lebih bersih */
+      .scrollbar-hide::-webkit-scrollbar {
+        display: none;
+      }
+      .scrollbar-hide {
+        -ms-overflow-style: none; /* IE and Edge */
+        scrollbar-width: none; /* Firefox */
+      }
 
+      /* Scroll Snap */
+      .scroll-container {
+        scroll-snap-type: x mandatory; /* Aktivasi scroll snap */
+      }
+      .snap-start {
+        scroll-snap-align: start; /* Elemen akan berhenti di posisi awal */
+      }
 }
